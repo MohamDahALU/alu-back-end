@@ -1,11 +1,11 @@
 #!/usr/bin/python3
+"""
+This script exports an employee's todo list progress to a CSV file.
+"""
 import json
 import requests
 import sys
 
-"""
-This script exports an employee's todo list progress to a CSV file.
-"""
 if __name__ == "__main__":
     user_id = sys.argv[1]
     user_url = f"https://jsonplaceholder.typicode.com/users/{user_id}"
