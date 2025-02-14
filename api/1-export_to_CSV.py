@@ -2,9 +2,9 @@
 """
 This script exports an employee's todo list progress to a CSV file.
 """
+import csv
 import requests
 import sys
-import csv
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
