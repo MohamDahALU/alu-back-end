@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script gathers data from an API and displays the completed tasks of an employee.
+This script gathers data from an API and displays
+the completed tasks of an employee.
 """
 import requests
 import sys
